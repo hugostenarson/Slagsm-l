@@ -1,0 +1,15 @@
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\bin\Debug\net6.0\Slagsmål.exe
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\bin\Debug\net6.0\Slagsmål.deps.json
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\bin\Debug\net6.0\Slagsmål.runtimeconfig.json
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\bin\Debug\net6.0\Slagsmål.dll
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\bin\Debug\net6.0\Slagsmål.pdb
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.csproj.AssemblyReference.cache
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.AssemblyInfoInputs.cache
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.AssemblyInfo.cs
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.csproj.CoreCompileInputs.cache
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.dll
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\refint\Slagsmål.dll
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.pdb
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\Slagsmål.genruntimeconfig.cache
+C:\Users\hugo.stenarson\Desktop\Programmering\Slagsmål\Slagsmål\obj\Debug\net6.0\ref\Slagsmål.dll
