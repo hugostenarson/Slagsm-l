@@ -3,7 +3,7 @@ Random generator = new Random();
 
 
 int round = 1;
-
+int game = 1;
 int dmg = generator.Next(9, 201);
 int dmg2 = generator.Next(9, 201);
 
@@ -102,9 +102,12 @@ while (round == 3)
 
     if (verahp <= 175)
     {
+        Thread.Sleep(1000);
         Console.WriteLine("Sattar och Vera utbyter slag i rasande fart. Vera aktiverar Mumin-rage och hennes styrka och uthållighet boostas med 100%.");
+        Thread.Sleep(2000);
         Console.WriteLine("Sattar inser att han kommer förlora om det fortsätter såhär. Han sparkar upp sand i Veras ögon och hoppar bakåt. Han tar snabbt ut sin dator och kallar på HTML-draken.");
         Console.WriteLine("HTML-draken använder CSS Slash som delar Vera itu.");
+        Thread.Sleep(2000);
         Console.WriteLine("'Du har blivit stark Sattar. Jag trodde aldrig att du hade blivit stark nog för att kunna kalla på HTML-draken, bra kämpat' säger Vera tyst innan hon dör. Sattar vinner!");
         round = 0;
         sattarhp = 0;  
@@ -210,7 +213,7 @@ if (sattarhp <= 125)
         }
         }
 
-        if (verahp <= 0)
+        if (verahp <= 125)
         {
             Console.WriteLine("Sattar skriver in Veras namn i HTML Death Note. Vera dör av hjärtattack och Sattar vinner!");
             sattarhp = 0;
@@ -223,20 +226,6 @@ if (sattarhp <= 125)
         }
         }
 
-    if (sattarhp <= 125)
-    {
-        Thread.Sleep(2000);
-        Console.WriteLine("Vera använder Erebos Barrage och knockar Sattar. Game over!");
-        sattarhp = 0;
-        verahp = 0;
-        round = 0;
-        Thread.Sleep(2000);
-            Console.WriteLine("Tryck på 'Enter' för att avsluta.");
-        if ( Console.ReadKey().Key == ConsoleKey.Enter) 
-        {
-            System.Environment.Exit(0);
-        }
-    }
     else
     {
         Thread.Sleep(2000);
