@@ -237,6 +237,33 @@ if (sattarhp <= 125)
         round++;
         Thread.Sleep(2000);
     }
+    if (verahp <= 0)
+    {
+        Console.WriteLine($"Vera har {verahp}hp kvar. Sattar vinner!");
+        sattarhp = 0;
+        verahp = 0;
+        round = 0;
+        Thread.Sleep(1500);
+        Console.WriteLine("Tryck på 'Enter' för att avsluta.");
+        if ( Console.ReadKey().Key == ConsoleKey.Enter) 
+        {
+            System.Environment.Exit(0);
+        }
+    }
+
+    if (sattarhp <= 0)
+    {
+        Console.WriteLine($"Sattar har {sattarhp}hp kvar. Vera vinner!");
+        sattarhp = 0;
+        verahp = 0;
+        round = 0;
+        Thread.Sleep(1500);
+        Console.WriteLine("Tryck på 'Enter' för att avsluta.");
+        if ( Console.ReadKey().Key == ConsoleKey.Enter) 
+        {
+            System.Environment.Exit(0);
+        }
+    }
 }
 
 while (round == 6)
